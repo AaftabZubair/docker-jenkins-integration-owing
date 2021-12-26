@@ -10,4 +10,9 @@ public class DockerController {
     public String messageGet(){
      return "Hi i am docker jenkins";
     }
+
+    @GetMapping("/hii")
+    public String getAccess(){
+        return "hiii";
+    }
 }
