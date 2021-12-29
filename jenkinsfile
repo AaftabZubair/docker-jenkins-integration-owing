@@ -5,7 +5,9 @@ agent any
    steps{
       echo 'building application...'
    }
-   
+  
+  
+  
   }
   stages{
   stage("test"){
